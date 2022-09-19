@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El nuevo atributo autocomplete y el elemento datalist de HTML5</title>
+</head>
+<body>
+    <h1>Demo de autocomplete y datalist</h1>
+    <p>Este forrmulario demuestra el nuevo atributo autocomplete de HTML y el elemento datalist</p>
+    <form action="" autocomplete="on" method="post">
+        <p>
+            <label for="">Primer nombre:
+                <input type="text" placeholder="Primer Nombre" id="pimerNombre">
+            </label>
+        </p>
+        <p>
+            <label for="">Apellido:
+                <input type="text" placeholder="Apellido" id="apellido">
+            </label>
+        </p>
+        <p>
+            <label for="">Email:
+                <input type="email" placeholder="nombre@dominio.com" id="email">
+            </label>
+        </p>
+        <p>
+            <label for="listaTexto">Mes de nacimiento:
+                <input type="text" placeholder="Seleccione un mes" id="meses" list="meses">
+                <datalist id="meses">
+                    <option value="Enero"></option>
+                    <option value="Febrero"></option>
+                    <option value="Marzo"></option>
+                    <option value="Abril"></option>
+                    <option value="Junio"></option>
+                    <option value="Julio"></option>
+                    <option value="Agosto"></option>
+                    <option value="Septiembre"></option>
+                    <option value="Octubre"></option>
+                    <option value="Noviembre"></option>
+                    <option value="Diciembre"></option>
+                </datalist>
+
+            </label>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+        <p>--REGRESAR--</p>
+        <a href="../../index.html"><img src="../../Ohnyo.gif" alt=""></a>
+    </form>
+</body>
+</html>

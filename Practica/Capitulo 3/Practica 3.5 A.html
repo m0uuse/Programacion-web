@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A) CAFETERIA</title>
+</head>
+<body>
+    <h1>REVIEW DE LA CAFETERIA!</h1>
+    <h2>Porfavor califique cada elemento con un numero del 1-10</h2>
+    <p> <mark>Se pidio a los estudiantes que calificaran los alimentos en la cafeteria en la escala del 1 al 10 <br>
+    </mark>El resultado promedio fue 7 </p>
+    <form method="post" action="http/deitel.com">
+        <p>
+            Nombre: <input type="text" name="NOMBRE" id="nombre" autofocus="autofocus" placeholder="NOMBRE PORFAVOR" autocomplete="off">
+        </p>
+        <p>
+            <label for="">PAPITAS:
+                0<input type="range" name="papitas" id="papitas" min="0" max="10" value="10"/>10
+            </label>
+        </p>
+        <p>
+            <label for="">SANDWICH:
+                0<input type="range" name="sandwich" id="sandwich" min="0" max="10" value="10"/>10
+            </label>
+        </p>
+        <p>
+            <label for="">QUESADILLAS:
+                0<input type="range" name="quesadillas" id="quesadillas" min="0" max="10" value="10"/>10
+            </label>
+        </p>
+        <p>
+            <label for="">CHILAQUILES:
+                0<input type="range" name="chilaquiles" id="chilaquiles" min="0" max="10" value="10"/>10
+            </label>
+        </p>
+        <p>
+            <label for="">TACOS:
+                0<input type="range" name="tacos" id="tacos" min="0" max="10" value="10"/>10
+            </label>
+        </p>
+        <p>
+            <Label>SABOR FAVORITO DE HELADO
+                <input list="HELADOS" id="Helados" name="helados favoritos">
+                <datalist id="HELADOS">
+                    <option value="Chocolate"></option>
+                    <option value="Vainilla"></option>
+                    <option value="Limon"></option>
+                    <option value="Naranja"></option>
+                    <option value="Aceite de Motor"></option>
+                </datalist>
+            </Label>
+        </p>
+        <p>
+            <label for="">CALIFICACION FINAL: 
+                0<input type="range" name="calificacion_final" id="calificacion_final" min="0" max="100" value="50" >100
+            </label>
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+    <details>
+        <summary>SOBRE LA ENCUESTA</summary>
+        <p>Esta encuesta nos sirve para saber las sig cosas:</p>
+        <ul>
+            <li>LO QUE LES GUSTA</li>
+            <li>LO QUE NO NOS GUSTA</li>
+            <li>LO QUE DEBERIAMOS MEJORAR</li>
+            <li>LO QUE NO DEBERIAMOS MEJORAR :)</li>
+        </ul>
+    </details>
+    <img src="WATAME PAPITAS.gif" alt="">
+    <p>--REGRESAR--</p>
+    <a href="../../index.html"><img src="../../Ohnyo.gif" alt=""></a>
+</body>
+</html>
